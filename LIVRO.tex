@@ -1,25 +1,19 @@
-\documentclass[semcabeco,showtrims,10pt,conselho,spreadimages]{memoir}
+\documentclass[semcabeco,showtrims,12pt,conselho,compontinhos,spreadimages]{memoir}
 
 \usepackage{commands}
-\usepackage[bolso]{hedra}
+\usepackage[vieira]{hedra}
 \usepackage{penalidades}
 
 \usepackage{gitrevisioninfo}
 
-\usepackage{parallel}
-\renewcommand{\ParallelPar}{\ParallelParTwoPages}
-%\newenvironment{Parallel}[3][p]
+\usepackage{pagecolor}
+\usepackage{afterpage}
 
 \renewcommand{\asterisc}{{\centering\adforn{47}\par}}
 
-%\usepackage{afterpage}
-%\newcommand\blankpage{%
- %   \null
-  %  \thispagestyle{empty}%
-   % \addtocounter{page}{-1}%
-    %\newpage}
+\newcommand{\forceindent}{\leavevmode{\parindent=1,5em\indent}}
 
-%\newcommand{\grego}[1]{#1}
+
 
 \makeatletter
 \newenvironment{Parskip}{%
