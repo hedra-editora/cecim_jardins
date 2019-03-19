@@ -1,0 +1,48 @@
+\documentclass[semcabeco,showtrims,10pt,conselho,spreadimages]{memoir}
+
+\usepackage{commands}
+\usepackage[bolso]{hedra}
+\usepackage{penalidades}
+
+\usepackage{gitrevisioninfo}
+
+\usepackage{parallel}
+\renewcommand{\ParallelPar}{\ParallelParTwoPages}
+%\newenvironment{Parallel}[3][p]
+
+\renewcommand{\asterisc}{{\centering\adforn{47}\par}}
+
+%\usepackage{afterpage}
+%\newcommand\blankpage{%
+ %   \null
+  %  \thispagestyle{empty}%
+   % \addtocounter{page}{-1}%
+    %\newpage}
+
+%\newcommand{\grego}[1]{#1}
+
+\makeatletter
+\newenvironment{Parskip}{%
+   \par
+   \parskip=0.3\baselineskip \advance\parskip by 0pt plus 2pt
+   \parindent=\z@
+   \def\@listI{\leftmargin\leftmargini
+      \topsep\z@ \parsep\parskip \itemsep\z@}
+   \let\@listi\@listI
+   \@listi
+   \def\@listii{\leftmargin\leftmarginii
+      \labelwidth\leftmarginii\advance\labelwidth-\labelsep
+      \topsep\z@ \parsep\parskip \itemsep\z@}
+   \def\@listiii{\leftmargin\leftmarginiii
+       \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
+       \topsep\z@ \parsep\parskip \itemsep\z@}
+   \partopsep=\z@
+}{\par}
+\makeatother
+
+\begin{document}
+
+
+\include{INPUTS}
+
+\end{document}
