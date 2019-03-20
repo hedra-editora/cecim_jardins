@@ -2,9 +2,8 @@
 \hyphenpenalty =10000\thispagestyle {empty}
 \contentsline {chapter}{Introdução}{9}
 \contentsline {chapter}{Introduction}{11}
-\contentsline {chapter}{Original em português, de Vicente Franz Cecim}{15}
-\contentsline {chapter}{Tradução para o francês, de Cláudia Vitalouca}{99}
-\contentsline {chapter}{Menção Especial no Prêmio Plural, México, 1981, com o título A Noite do Curau}{141}
-\contentsline {section}{ORIGINAL PORTUGUÊS}{141}
-\contentsline {section}{TRADUÇÃO PARA O FRANCÊS}{141}
+\contentsline {chapter}{Os jardins e a noite, de Vicente Franz Cecim}{13}
+\contentsline {chapter}{Les jardins et la nuit, traduction de Cláudia Vitalouca}{97}
+\contentsline {chapter}{Prêmios recebidos pelo autor}{179}
+\contentsline {chapter}{Prix reçus par l'auteur}{181}
 \contentsfinish 
