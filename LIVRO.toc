@@ -1,9 +1,9 @@
 \select@language {brazilian}
 \hyphenpenalty =10000\thispagestyle {empty}
-\contentsline {chapter}{Introdução}{9}
-\contentsline {chapter}{Introduction}{11}
-\contentsline {chapter}{Os jardins e a noite, de Vicente Franz Cecim}{13}
-\contentsline {chapter}{Les jardins et la nuit, traduction de Cláudia Vitalouca}{97}
-\contentsline {chapter}{Prêmios recebidos pelo autor}{179}
-\contentsline {chapter}{Prix reçus par l'auteur}{181}
+\contentsline {chapter}{Introduction}{9}
+\contentsline {chapter}{Les jardins et la nuit, traduction de Cláudia Vitalouca}{11}
+\select@language {french}
+\contentsline {chapter}{Os jardins e a noite, de Vicente Franz Cecim}{83}
+\select@language {brazilian}
+\contentsline {chapter}{Prix reçus par l'auteur}{157}
 \contentsfinish 

@@ -1,7 +1,8 @@
 \documentclass[semcabeco,showtrims,12pt,conselho,compontinhos,spreadimages]{memoir}
 
 \usepackage{commands}
-\usepackage[vieira]{hedra}
+\usepackage[a4]{hedraoptions}
+\usepackage[a4]{hedra}
 \usepackage{penalidades}
 
 \usepackage{gitrevisioninfo}
@@ -10,10 +11,11 @@
 \usepackage{afterpage}
 
 \renewcommand{\asterisc}{{\centering\adforn{47}\par}}
+\newcommand{\logo}{logo.png}
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,5em\indent}}
 
-
+\linespread{1.20}
 
 \makeatletter
 \newenvironment{Parskip}{%
