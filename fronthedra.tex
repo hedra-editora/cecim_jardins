@@ -72,7 +72,10 @@ To Sandor Ellis and Natsuko Uchino
 \end{center}
 %logos
 \vfill
-\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}\\ São Paulo\_\the\year}}{\logoum\break{} São Paulo\_\the\year}
+\begin{center}
+\includegraphics[width=50mm]{./logos.png}
+\end{center}
+%\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}\\ São Paulo\_\the\year}}{\logoum\break{} São Paulo\_\the\year}
 %\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
 \par\clearpage\endgroup
 % Resumo -------------------------------------------------------
@@ -104,11 +107,11 @@ To Sandor Ellis and Natsuko Uchino
 \ifdef{\imagemficha}{\IfFileExists{\imagemficha}{\includegraphics[width=.7\textwidth]{\imagemficha}\par}}{}
 
 \mbox{}\vfill\small\thispagestyle{empty}
-\begin{center}
-\begin{minipage}{.8\textwidth}
-\centering\tiny\noindent{}Adverte-se aos curiosos que se imprimiu este livro \ifdef{\grafica}{na gráfica \grafica}{em nossas oficinas}, 
-em \today \ifdef{\papelmiolo}{em papel \papelmiolo}, em tipologia \tipopadrao{}, com diversos sofwares livres, 
-entre eles, Lua\LaTeX, git \& ruby. \ifdef{\RevisionInfo{}}{\par(v.\,\RevisionInfo)}{}\par \begin{center}\normalsize\adforn{64}\end{center}
-\end{minipage}
-\end{center}
+%\begin{center}
+%\begin{minipage}{.8\textwidth}
+%\centering\tiny\noindent{}Adverte-se aos curiosos que se imprimiu este livro \ifdef{\grafica}{na gráfica \grafica}{em nossas oficinas}, 
+%em \today \ifdef{\papelmiolo}{em papel \papelmiolo}, em tipologia \tipopadrao{}, com diversos sofwares livres, 
+%entre eles, Lua\LaTeX, git \& ruby. \ifdef{\RevisionInfo{}}{\par(v.\,\RevisionInfo)}{}\par \begin{center}\normalsize\adforn{64}\end{center}
+%\end{minipage}
+%\end{center}
 }
