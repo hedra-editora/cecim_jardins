@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1553198987 "LIVRO.xdv" "LIVRO.pdf" "LIVRO" 1553198987
-  "LIVRO.xdv" 1553198986 1660356 0a1f9d0b9c8363b5c4ce1a523af271ef "xelatex"
+["xdvipdfmx"] 1558720394 "LIVRO.xdv" "LIVRO.pdf" "LIVRO" 1558720395
+  "LIVRO.xdv" 1558720394 1658352 313907990de8a6e96bf36879207f2f7a "xelatex"
   (generated)
   "LIVRO.pdf"
-["xelatex"] 1553198984 "LIVRO.tex" "LIVRO.xdv" "LIVRO" 1553198987
+["xelatex"] 1558720391 "LIVRO.tex" "LIVRO.xdv" "LIVRO" 1558720395
   "/home/editorial/texmf/tex/aparatos.sty" 1496083773 909 136995c661119a9437b5451e77fe6935 ""
   "/home/editorial/texmf/tex/commands.sty" 1496083773 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/home/editorial/texmf/tex/frontlayout.sty" 1522961913 1454 12134bf9b3d761fd4c3d46f05ff90c4c ""
@@ -126,17 +126,17 @@
   "/usr/share/texmf-dist/tex/xelatex/xunicode/xunicode.sty" 1501615463 205722 8027ed7ab2230086d647802c25f3ee42 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1501615481 32585 d82bbcf7626b7842c87671687479e852 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1509478212 4066395 6b322c5d2cda5c7d3fa6f2e6378d2f25 ""
-  "INPUTS.aux" 1553198986 2634 2adecbb4b4e03bc86aad34496b803cac ""
+  "INPUTS.aux" 1558720394 2634 2adecbb4b4e03bc86aad34496b803cac ""
   "INPUTS.tex" 1553024093 60 86ff257843e5289fe2ad4c530c014933 ""
   "INTRO.tex" 1553195078 3869 37019d22ce59a89aa61fca626a1568c8 ""
-  "LIVRO.aux" 1553198986 476 ce8fe2fa151cd7ada354400c22204dd6 ""
+  "LIVRO.aux" 1558720394 476 ce8fe2fa151cd7ada354400c22204dd6 ""
   "LIVRO.tex" 1553193770 1069 78ad48d3b9f6fce066e721a33d1e208e ""
-  "LIVRO.toc" 1553198986 481 e28c21fe75acc447061d7e799c42f2ce ""
+  "LIVRO.toc" 1558720394 481 e28c21fe75acc447061d7e799c42f2ce ""
   "ORIGINAIS.tex" 1553198976 149356 3b7fa0d8423daf24be244ccd21759ce8 ""
-  "PREMIOS.tex" 1553117420 2028 1556a3cecd434eccb99360af02928473 ""
+  "PREMIOS.tex" 1558720386 2028 94e5ac215e90052caad89007983c9972 ""
   "fichatecnica.sty" 1553117777 2373 63c7f999b4c4945385cb7962fee4e4ed ""
-  "fronthedra.tex" 1553194946 3822 6498e82bd66c518b50caba71acaaf34b ""
-  "gitrevisioninfo.sty" 1553198978 35 649ccb161fb98b7178be2bcf99e468da ""
+  "fronthedra.tex" 1558720091 3746 304a0a204a1c380f10d36b5985339109 ""
+  "gitrevisioninfo.sty" 1558720391 35 00bd5e2d597b56b861e5600c8bfd13d9 ""
   "hedra.sty" 1553109128 5027 32dbf93a4448d3fdd5df3880588b903c ""
   "hedraextra.sty" 1553193691 6390 65a9b8588c7612c4e2512564697fa8c1 ""
   "hedraoptions.sty" 1553188662 3582 a4337dc8ddc2cbc24309d2feaf7f37e4 ""
@@ -144,8 +144,8 @@
   "penalidades.sty" 1553107253 5285 18e80aeaf88f978c2e3015ab1691a5e2 ""
   "toc.sty" 1553189438 3584 8a6cd48c4fd761cc0f8988b9f7ec2521 ""
   (generated)
-  "INPUTS.aux"
-  "LIVRO.toc"
-  "LIVRO.aux"
   "LIVRO.xdv"
+  "INPUTS.aux"
   "LIVRO.log"
+  "LIVRO.aux"
+  "LIVRO.toc"

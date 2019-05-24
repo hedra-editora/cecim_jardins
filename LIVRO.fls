@@ -1,4 +1,4 @@
-PWD /home/editorial/LATEX/cecim_jardins
+PWD /home/editorial/LATEX/OLD/cecim_jardins
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/xetex/xelatex.fmt
 INPUT LIVRO.tex
