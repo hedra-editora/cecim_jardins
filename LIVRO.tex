@@ -10,6 +10,10 @@
 \usepackage{pagecolor}
 \usepackage{afterpage}
 
+\usepackage{parallel}
+
+\newcommand{\breakk}{\vfil\pagebreak}
+
 \renewcommand{\asterisc}{{\centering\adforn{47}\par}}
 \newcommand{\logo}{logo.png}
 
@@ -38,7 +42,13 @@
 
 \begin{document}
 
+\include{INTRO}
 
-\include{INPUTS}
+\begin{Parallel}[p]{}{} 
+\ParallelLText{\selectlanguage{french} \input{FRANCES}} 
+\ParallelRText{\setcounter{section}{0} \input{PORTUGUES}} %
+\end{Parallel} 
+
+\include{PREMIOS}
 
 \end{document}
